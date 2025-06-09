@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name - Personal Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f9fa;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .profile-container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 18px;
+      border: 3px solid #e0e7ef;
+    }
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    .role {
+      color: #2d8cf0;
+      font-size: 1.1rem;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 1rem;
+      margin: 0 0 24px 0;
+      color: #444;
+    }
+    .social-links a {
+      margin: 0 10px;
+      color: #2d8cf0;
+      font-size: 1.3rem;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .social-links a:hover {
+      color: #174a71;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <img src="https://avatars.githubusercontent.com/u/your-github-id" alt="Your Name" class="profile-img">
+    <h1>Your Name</h1>
+    <div class="role">Your Role / Position</div>
+    <p>
+      A short bio about yourself. Mention your passions, skills, or what you do.<br>
+      For example: "Software engineer passionate about open-source, web development, and teaching."
+    </p>
+    <div class="social-links">
+      <a href="https://github.com/your-github-username" target="_blank" title="GitHub">GitHub</a>
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank" title="LinkedIn">LinkedIn</a>
+      <a href="mailto:your@email.com" title="Email">Email</a>
+    </div>
+  </div>
+</body>
+</html>
