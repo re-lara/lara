@@ -1,75 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Personal Profile</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f7f9fa;
-      margin: 0;
-      padding: 0;
-      color: #222;
-    }
-    .profile-container {
-      max-width: 500px;
-      margin: 40px auto;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-      padding: 32px 24px;
-      text-align: center;
-    }
-    .profile-img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 18px;
-      border: 3px solid #e0e7ef;
-    }
-    h1 {
-      margin: 0 0 8px 0;
-      font-size: 2rem;
-      letter-spacing: 1px;
-    }
-    .role {
-      color: #2d8cf0;
-      font-size: 1.1rem;
-      margin-bottom: 18px;
-    }
-    p {
-      font-size: 1rem;
-      margin: 0 0 24px 0;
-      color: #444;
-    }
-    .social-links a {
-      margin: 0 10px;
-      color: #2d8cf0;
-      font-size: 1.3rem;
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .social-links a:hover {
-      color: #174a71;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lara Reime</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-  <div class="profile-container">
-    <img src="https://avatars.githubusercontent.com/u/your-github-id" alt="Your Name" class="profile-img">
-    <h1>Your Name</h1>
-    <div class="role">Your Role / Position</div>
-    <p>
-      A short bio about yourself. Mention your passions, skills, or what you do.<br>
-      For example: "Software engineer passionate about open-source, web development, and teaching."
-    </p>
-    <div class="social-links">
-      <a href="https://github.com/your-github-username" target="_blank" title="GitHub">GitHub</a>
-      <a href="https://linkedin.com/in/your-linkedin" target="_blank" title="LinkedIn">LinkedIn</a>
-      <a href="mailto:your@email.com" title="Email">Email</a>
-    </div>
-  </div>
+    <header>
+        <div class="wrapper header-content">
+            <div class="logo">
+                <a href="index.html">LARA REIME</a>
+            </div>
+            <nav>
+                <a href="pages/cv.html">CV</a>
+                <a href="pages/publications.html">Publications</a>
+                <a href="pages/projects.html">Projects</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="content">
+                <div class="image-box">
+                    <img src="static/me-l.jpg" alt="Placeholder Image" />
+                </div>
+                <div class="text-box-project">
+                    <h2>Hi!</h2>
+                    <p>I'm Lara, a qualitative and design researcher based in Copenhagen.</p>
+
+                    <p>
+                        I work at the intersection of people, technologies, and futures to explore how we might create
+                        more inclusive, caring,
+                        and critical ways of designing and understanding worlds. With a background in anthropology,
+                        Science and Technology
+                        studies and Human-Computer Interaction, I'm interested in understanding people's lived
+                        experiences and their contexts to
+                        challenge the status quo. My work often unfolds in complex or sensitive settings, from
+                        healthcare systems to public
+                        digital services, where I seek to understand tensions, needs, and potentials that shape people's
+                        everyday experiences.</p>
+                    <p>
+                        I believe technology should support, not exploit. I'm drawn to spaces where complexity is
+                        welcomed, where care is part
+                        of the method, and where innovation means reimagining what's worth building.</p>
+
+                    <h3>I work with:</h3>
+                    <ul>
+                        <li>*Qualitative methods & analysis</li>
+                        <li>*Participatory design & co-creation workshops</li>
+                        <li>*Ethnography & fieldwork</li>
+                        <li>*User research</li>
+                        <li>*Speculative design & design fiction</li>
+                        <li>*FemTech & care technologies</li>
+                        <li>*Digital public services</li>
+                        <li>*Critical approaches to innovation</li>
+                        <li>*Storytelling & research communication</li>
+                        <li>*Futures thinking & inclusive design</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="wrapper">
+            <small>
+                <h3>Feel free to reach out!</h3>
+                <p>
+                    I'm always happy to chat, exchange and collaborate <br>
+                    <b><a id="mail-contact" href="">Email</a> ⎸<a href="https://www.linkedin.com/in/lara-reime/"
+                            target="_blank">LinkedIn</a></b>
+                </p>
+            </small>
+        </div>
+        <script src="js/script.js" defer></script>
+    </footer>
 </body>
+
 </html>
